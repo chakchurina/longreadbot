@@ -1,1 +1,1 @@
-longreadbot: apt-get install poppler-utils && python run_bot.py
+longreadbot: python run_bot.py
