@@ -9,8 +9,7 @@ import message_texts
 from texts.longreads import Renderer
 
 logger = logging.getLogger(__name__)
-# TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN_LONGREAD")
-TELEGRAM_TOKEN = '1058020278:AAHOjsOUikWdHdhTVtobV-Z2DKTiWWPE59A'
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN_LONGREAD")
 
 
 class LongreadBot:
