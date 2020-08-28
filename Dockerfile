@@ -9,5 +9,5 @@ RUN apt-get install -y poppler-utils
 COPY . /app
 WORKDIR /app 
 RUN pip install -r requirements.txt
-ENTRYPOINT ['python3']
-CMD ['run_bot.py']
+ENTRYPOINT ['']
+CMD ['python run_bot.py']
