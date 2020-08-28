@@ -1,4 +1,4 @@
-FROM python:3.7.5-slim
+FROM python:3.7.9-slim
 
 RUN apt-get update && apt-get install -y apt-transport-https
 RUN echo 'deb http://private-repo-1.hortonworks.com/HDP/ubuntu14/2.x/updates/2.4.2.0 HDP main' >> /etc/apt/sources.list.d/HDP.list
