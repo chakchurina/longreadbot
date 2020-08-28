@@ -10,4 +10,4 @@ COPY . /app
 WORKDIR /app 
 RUN pip install -r requirements.txt
 CMD ["run_bot.py"]
-ENTRYPOINT ["python"]
+ENTRYPOINT ["python3"]
